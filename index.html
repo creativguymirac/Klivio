@@ -23,15 +23,16 @@
     </nav>
     <!-- Hero Banner -->
     <header>
-        <h2>Klivio, l’allié de votre progression</h2>
-        <h1>Les meilleures formations sur le développement personnel</h1>
-        <button>En savoir plus</button>
+        <h1>Klivio, l’allié de votre progression</h2>
+        <h2>Les meilleures formations sur le développement personnel</h1>
+        <button class="btn">En savoir plus</button>
+
     </header>
 
-    <!-- First Courses section -->
-    <section class="popCourse">
+
+    <article class="popCourse">
         <h2>Les formations populaires</h3>
-        <article>
+        <section>
             <img src="assets/img-course.png" alt="couverture de la formation">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -40,9 +41,9 @@
             <p>Sonia Lefèvre | Coach prise de parole</p>
             <div class="stars"></div>
             <p>Gagnez en aisance et captez votre auditoire</p>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <img src="assets/img-course.png" alt="couverture de la formation">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -51,9 +52,9 @@
             <p>Lucie Garnier | Formatrice</p>
             <div class="stars"></div>
             <p>Apprenez à rester serein face aux défis</p>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <img src="assets/img-course.png" alt="couverture de la formation">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -62,9 +63,9 @@
             <p>David Moreau | Expert</p>
             <div class="stars"></div>
             <p>Collaborez efficacement, même à distance</p>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <img src="assets/img-course.png" alt="couverture de la formation">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -73,15 +74,14 @@
             <p>Claire Dumas | Coach organisation</p>
             <div class="stars"></div>
             <p>Optimisez vos journées et gagnez en efficacité</p>
-        </article>
+        </section>
 
         <button>Voir plus de formations</button>
-    </section>
-
-    <!-- Second Courses Section -->
-    <section class="latestCourse">
+    </article>
+<!--
+    <article class="latestCourse">
         <h2>Les formations récentes</h3>
-        <article>
+        <section>
             <img src="assets/img-course.png" alt="couverture de la formation">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -90,9 +90,9 @@
             <p>Julien Martel | Coach en comm.</p>
             <div class="stars"></div>
             <p>Améliorez vos échanges et votre impact relationnel</p>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <img src="assets/img-course.png" alt="couverture de la formation">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -101,9 +101,9 @@
             <p>Amel Benali | Psy. du travail</p>
             <div class="stars"></div>
             <p>Développez calme et intelligence émotionnelle</p>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <img src="assets/img-course.png" alt="couverture de la formation">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -112,9 +112,9 @@
             <p>Thomas Rivière | Expert</p>
             <div class="stars"></div>
             <p>Analysez, décidez et trouvez des solutions durables</p>
-        </article>
+        </section>
 
-        <article>
+        <section>
             <img src="" alt="">
             <div class="priceTag">
                 <p>15,99 € <span>60 €</span></p>
@@ -123,29 +123,28 @@
             <p>Marc Nguyen | Consultant</p>
             <div class="stars"></div>
             <p>Inspirez, motivez et fédérez votre équipe</p>
-        </article>
+        </section>
 
         <button>Voir plus de formations</button>
-    </section>
+    </article>
 
-    <!-- Feedback section  -->
 
     <main>
-        <section class="feedback">
+        <article class="feedback">
             <h2>Avis Clients</h2>
-            <article>
+            <section>
                 <img src="assets/juliette.png" alt="photo de juliette">
                 <div id="h3">Juliette</div>
                 <div class="star"></div>
                 <p>J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et la progression est motivante — parfait pour se former en autonomie.</p>
-            </article>
-            <article>
+            </section>
+            <section>
                 <img src="assets/camille.png" alt="photo de camille">
                 <div id="h3">Camille</div>
                 <div class="star"></div>
                 <p>Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support et les corrections automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.</p>
-            </article>
-        </section>
+            </section>
+        </article>
 
         <article>
             <h3>Les avantages klivio</h3>
@@ -173,7 +172,7 @@
             <p>
                 Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre
                 approche éducative. Nous nous engageons à assurer une rémunération
-                équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail. 
+                équitable pour les créateurs de contenu, reconnaissant la qualité de leur travail.
             </p>
             <p>
                 Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité
@@ -233,6 +232,6 @@
         <a href="#"><img src="assets/icons/Social Icons-2.svg" alt="icon instagram"></a>
         <a href="#"><img src="assets/icons/Vector.svg" alt="incon linkdin"></a>
 
-    </footer>
+    </footer> -->
 </body>
 </html>

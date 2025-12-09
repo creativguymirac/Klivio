@@ -13,6 +13,10 @@ a {
     font-size: 1em;
 }
 
+h1, h2, h3, h4 {
+    text-transform:uppercase;
+}
+
 /* NavBar */
 
 #topBar {
@@ -73,11 +77,11 @@ a {
 #search {
     text-align: left;
     padding: 1em;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #fff;
     width: 24.84vw;
     max-width: 476.928px;
-    height: 80%;
+    height: 1vh;
     max-height: 37px;
     background-color: #152237;
     border: none;
@@ -89,3 +93,50 @@ a {
     height: 100px;
     color: red;
 }
+
+/* Hero banner */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    background-image: url(assets/bg-header.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1,h2,button {
+    z-index: 2;
+}
+
+header::before {
+    content: "";
+    background: linear-gradient(90deg,rgba(68, 221, 138, 1) 0%, rgba(21, 183, 226, 1) 100%);
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    opacity: 75%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #152237;
+    margin: 0 0 0.2em 0;
+}
+
+header h2 {
+    font-size: 1em;
+    font-weight:500;
+    margin: 0 0 0.5em 0;
+}
+
+header button {
+    font-weight: 500;
+}
+
+/* Courses */
+
