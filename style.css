@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif, arial;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+/* NavBar */
+
+#topBar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: #152237;
+    width: 100vw;
+    height: 7.5vh;
+    padding: 0 9.2vw;
+}
+
+#klivioLogo {
+    height: 3vh;
+}
+
+.auth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+    height: 5vh;
+}
+
+.btn {
+    width: 75%;
+    max-width: 130px;
+    height: 80%;
+    max-height: 40px;
+    margin: 0.6em;
+    border-radius: 6px;
+    border: none;
+    color: #152237;
+}
+
+.signUp {
+    background: #44DD8A;
+    background: linear-gradient(90deg,rgba(68, 221, 138, 1) 0%, rgba(21, 183, 226, 1) 100%);
+}
+
+#searchContent {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 477px;
+    border: solid #fff 1px;
+    border-radius: 6px;
+    padding: 0.1em;
+}
+
+#searchContent i {
+    position: absolute;
+    right: 15px;
+    color: white;
+    pointer-events: none;
+}
+
+#search {
+    text-align: left;
+    padding: 1em;
+    font-size: 1em;
+    color: #fff;
+    width: 24.84vw;
+    max-width: 476.928px;
+    height: 80%;
+    max-height: 37px;
+    background-color: #152237;
+    border: none;
+    pointer-events: none;
+}
+
+.fa-arrow-up-right {
+    width: 100px;
+    height: 100px;
+    color: red;
+}
