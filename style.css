@@ -575,13 +575,114 @@ main {
 
 footer {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #152237;
 
-    #footerNav {
-        width: 90%;
-        background-color:crimson;
+    .bigSpacer {
+        width: 100%;
+        height: 18px;
+        background: linear-gradient(90deg,rgba(68, 221, 138, 1) 0%, rgba(21, 183, 226, 1) 100%);
+    }
+
+    .topFooter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        padding: 4em 4em;
+
+
+        #footerNav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        padding: 5em 0 3em 0;
+
+
+            .klivioLogo {
+                width: 243px;
+            }
+            
+            .navInfos {
+                display: flex;
+                justify-content: space-between;
+                width: 20%;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h2 {
+                        font-size: 15px;
+                        font-weight: 700;
+                        color: #fff;
+                        padding: 0 0 0.5em 0;
+                    }
+
+                    li {
+                        display: flex;
+                        align-items: start;
+                        list-style: none;
+                        padding: 0.5em 0 0 0;
+                        
+                        img {
+                            padding: 0 1em 0 0;
+                        }
+            
+                        a {
+                            font-size: 15px;
+                            font-weight: 400;
+                            color: #fff;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .authcol {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .spacer {
+        width: 94%;
+        height: 2px;
+        background-color: #44DD8A;
+        margin: 2em 0 2em 0;
+    }
+
+    .bottomFooter {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #152237;
+        padding: 0  4em 6em 4em;
+
+        p {
+            color: #fff;
+            font-size: 15px;
+        }
+
+        .socialPlateform {
+            display: flex;
+            align-items: center;
+
+            p {
+                margin: 0 1.5em 0 0;
+            }
+
+            img {
+                margin: 0 0.5em;
+            }
+        }
     }
 }
