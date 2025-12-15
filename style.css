@@ -387,7 +387,7 @@ main {
                     border-radius: 90px;
                 }
 
-                h3 {
+                h2 {
                      text-transform:none;
                 }
     
@@ -420,7 +420,7 @@ main {
         article {
             width: 100%;
 
-            h3 {
+            h2 {
                 font-size: 40px;
                 font-weight: 900;
                 margin: 0 0 1em 0;
@@ -470,7 +470,7 @@ main {
         article {
             width: 100%;
 
-            h3 {
+            h2 {
                 font-size: 40px;
                 font-weight: 900;
                 margin: 0 0 1em 0;
@@ -512,7 +512,7 @@ main {
             background-color: #fff;
             padding: 12em 8em;
 
-            h3 {
+            h2 {
                 color: #152237;
                 font-weight: 900;
                 font-size: 40px;
@@ -660,7 +660,7 @@ footer {
                     flex-direction: column;
                     justify-content: center;
 
-                    h2 {
+                    p {
                         font-size: 15px;
                         font-weight: 700;
                         color: #fff;
